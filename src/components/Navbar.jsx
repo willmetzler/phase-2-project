@@ -4,15 +4,16 @@ function Navbar () {
 
     return (
         <div>
-            <Link to="/">Home</Link>
+            <Link className='navbar' to="/">Home</Link>
             &nbsp; &nbsp;
-            <Link to="/about">About</Link>
+            <Link className='navbar' to="/about">About</Link>
             &nbsp; &nbsp;
-            <Link to="/contact">Contact</Link>
+            <Link className='navbar' to="/diary">Movie Diary</Link>
             &nbsp; &nbsp;
-            <Link to="/about/portfolio">About: Portfolio</Link>
+            <Link className='navbar' to="/watchlist">Watchlist</Link>
             &nbsp; &nbsp;
-            <Link to="/about/bio">About: Bio</Link>
+            <Link className='navbar' to="/contact">Contact</Link>
+            
         </div>
     )
 }

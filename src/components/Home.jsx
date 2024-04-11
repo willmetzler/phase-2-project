@@ -1,7 +1,9 @@
 function Home () {
     
     return (
-        <h2>Welcome home!</h2>
+        <>
+            <h2 className="subheader" >Welcome to Letterboxd In: A movie review app for the introvert!</h2>
+        </>
     )
 }
 

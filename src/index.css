@@ -1,0 +1,78 @@
+@import url(https://db.onlinewebfonts.com/c/629ed6829f706958b9bdf4f6300dfca0?family=Sharp+Grotesk+SmBold+20+Regular);
+
+body {
+    background-color: #202830;
+    font-family: "Sharp Grotesk SmBold 20 Regular";
+    color: white;
+}
+
+#main-title {
+    color: #43bbf3;
+}
+
+.navbar {
+    color: #fb8304;
+}
+
+.subheader {
+    color: #04e354
+}
+
+.posters {
+    border: solid 
+    #43bbf3 10px;
+    width: 220px;
+    height: 335px;
+    background-color: white;
+    margin-bottom: 75px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.information {
+    border: solid 
+    #43bbf3 10px;
+    width: 220px;
+    height: 335px;
+    text-align: center;
+    margin-left: 2px;
+    margin-right:2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+}
+  
+.with-sidebar {
+    grid-template-columns: 3r 1fr;
+}
+
+
+.deletebutton {
+    border: solid black 2px;
+    border-radius: 0.5em;
+    background: #bf494b;
+}
+
+.logbutton {
+    border: solid black 2px;
+    border-radius: 0.5em;
+    background: #32ba59;
+}
+
+.editbutton {
+    border: solid black 2px;
+    border-radius: 0.5em;
+    background: #d3c330;
+}
+  
+input {
+    border: solid black 2px;
+}
+ 

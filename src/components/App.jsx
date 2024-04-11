@@ -1,12 +1,14 @@
 import { Outlet } from 'react-router-dom'
+import React from 'react'
 import Navbar from './Navbar'
 
 function App() {
 
+
   return (
     <div>
       <Navbar />
-      <h1>PHASE 2 PROJECT</h1>
+      <h1 id="main-title" >Letterboxd In</h1>
 
       <Outlet />
 

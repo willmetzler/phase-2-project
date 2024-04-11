@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom/client'
 import App from './components/App.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
+import Watchlist from './components/Watchlist.jsx'
 import Contact from './components/Contact.jsx'
-import Portfolio from './components/portfolio.jsx'
-import PortfolioItem from './components/PortfolioItem.jsx'
-import Bio from './components/Bio.jsx'
+import Diary from './components/Diary.jsx'
+
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
@@ -23,25 +23,19 @@ const routes = [
       {
         path: "about",
         element: <About />,
-        children: [
-          {
-            path: 'portfolio',
-            element: <Portfolio />
-          },
-          {
-            path: 'portfolio/:id',
-            element: <PortfolioItem />
-          },
-          {
-            path: 'bio',
-            element: <Bio />
-          }
-        ]
       },
       {
-        path: "contact",
+        path: 'contact',
         element: <Contact />
       },
+      {
+        path: "watchlist",
+        element: <Watchlist />
+      },
+      {
+        path: "diary",
+        element: <Diary />
+      }
     ]
   }
 ]
