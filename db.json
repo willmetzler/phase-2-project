@@ -1,130 +1,164 @@
 {
-    "watchlisted": [
-      {
-        "id": "1",
-        "title": "The Holdovers",
-        "director": "Alexander Payne",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "2",
-        "title": "American Fiction",
-        "director": "Cord Jefferson",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BZDlkZmRlYTctNGJmNy00MjVkLThjZDQtMWY5Zjg2NjlhZDZkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "3",
-        "title": "The Zone of Interest",
-        "director": "Jonathan Glazer",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BYzRmOGQwZjktYjM2Ni00M2NmLWFlZDYtZGFhM2RkM2VhZDI1XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
-      },
-      {
-        "id": "4",
-        "title": "Barbie",
-        "director": "Greta Gerwig",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "5",
-        "title": "Oppenheimer",
-        "director": "Christopher Nolan",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "6",
-        "title": "Poor Things",
-        "director": "Yorgos Lanthimos",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "7",
-        "title": "Past Lives",
-        "director": "Celine Song",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "8",
-        "title": "Anatomy of a Fall",
-        "director": "Justine Triet",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BMDBiYmRkNjUtYzc4My00NGFiLWE2NWUtMGU1ZDA1NTQ3ZjQwXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "9",
-        "title": "Maestro",
-        "director": "Bradley Cooper",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BOGI2MzQ1NzQtMmVkOC00ZGI0LWI3YjQtN2FjMzQ1NmRhNzFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": "10",
-        "title": "Killers of the Flower Moon",
-        "director": "Martin Scorsese",
-        "year": 2023,
-        "image": "https://m.media-amazon.com/images/M/MV5BMTdiOTg2YmQtZTdjNi00NGJjLWI2ZTQtYWNkNDUwMDEzOTQxXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_FMjpg_UX1000_.jpg"
-      }
-    ],
-    "movies": [
-        {
-          "id": "1",
-          "title": "The Holdovers",
-          "director": "Alexander Payne",
-          "year": 2023,
-          "image": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
-          "rating": 10,
-          "review": "My new favorite Christmas movie"
-        },
-        {
-          "id": "2",
-          "title": "American Fiction",
-          "director": "Cord Jefferson",
-          "year": 2023,
-          "image": "https://m.media-amazon.com/images/M/MV5BZDlkZmRlYTctNGJmNy00MjVkLThjZDQtMWY5Zjg2NjlhZDZkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg",
-          "rating": "",
-          "review": ""
-        },
-        {
-          "id": "3",
-          "title": "The Zone of Interest",
-          "director": "Jonathan Glazer",
-          "year": 2023,
-          "image": "https://m.media-amazon.com/images/M/MV5BYzRmOGQwZjktYjM2Ni00M2NmLWFlZDYtZGFhM2RkM2VhZDI1XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg",
-          "rating": "",
-          "review": "fhrhfkerhfghseiukrgnjkrehgkjdthgldhjklfghjkerfgljdfhjvghdfkjgshkjdbgkjerhgkjerhgjkerhgjkdhgjkshdgjdfhgjkedkjgbkgwkjb"
-        },
-        {
-          "id": "4",
-          "title": "Barbie",
-          "director": "Greta Gerwig",
-          "year": 2023,
-          "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
-          "rating": "",
-          "review": ""
-        },
-        {
-          "id": "5",
-          "title": "Oppenheimer",
-          "director": "Christopher Nolan",
-          "year": 2023,
-          "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg",
-          "rating": "",
-          "review": ""
-        },
-        {
-          "id": "6",
-          "title": "Poor Things",
-          "director": "Yorgos Lanthimos",
-          "year": 2023,
-          "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
-          "rating": "",
-          "review": ""
-        }
-      ]
-  }
+  "watchlisted": [
+    {
+      "id": "1",
+      "title": "The Holdovers",
+      "director": "Alexander Payne",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "2",
+      "title": "American Fiction",
+      "director": "Cord Jefferson",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BZDlkZmRlYTctNGJmNy00MjVkLThjZDQtMWY5Zjg2NjlhZDZkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The Zone of Interest",
+      "director": "Jonathan Glazer",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BYzRmOGQwZjktYjM2Ni00M2NmLWFlZDYtZGFhM2RkM2VhZDI1XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Barbie",
+      "director": "Greta Gerwig",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Oppenheimer",
+      "director": "Christopher Nolan",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Poor Things",
+      "director": "Yorgos Lanthimos",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Past Lives",
+      "director": "Celine Song",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Anatomy of a Fall",
+      "director": "Justine Triet",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BMDBiYmRkNjUtYzc4My00NGFiLWE2NWUtMGU1ZDA1NTQ3ZjQwXkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Maestro",
+      "director": "Bradley Cooper",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BOGI2MzQ1NzQtMmVkOC00ZGI0LWI3YjQtN2FjMzQ1NmRhNzFhXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Killers of the Flower Moon",
+      "director": "Martin Scorsese",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTdiOTg2YmQtZTdjNi00NGJjLWI2ZTQtYWNkNDUwMDEzOTQxXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "1ef8",
+      "title": "Dune Part 2",
+      "director": "Denis Villeneuve",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_QL75_UY281_CR0,0,190,281_.jpg"
+    }
+  ],
+  "movies": [
+    {
+      "id": "1",
+      "title": "The Holdovers",
+      "director": "Alexander Payne",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
+      "rating": 10,
+      "review": "My new favorite Christmas movie!"
+    },
+    {
+      "id": "4",
+      "title": "Barbie",
+      "director": "Greta Gerwig",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "rating": "6",
+      "review": "Kenough"
+    },
+    {
+      "id": "5",
+      "title": "Oppenheimer",
+      "director": "Christopher Nolan",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg",
+      "rating": "10",
+      "review": "Better than barbie, sorry!"
+    },
+    {
+      "id": "6",
+      "title": "Poor Things",
+      "director": "Yorgos Lanthimos",
+      "year": 2023,
+      "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
+      "rating": "7",
+      "review": "weird"
+    },
+    {
+      "id": "7fab",
+      "title": "Dune Part 2",
+      "director": "Denis Villeneuve",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
+      "rating": "10",
+      "review": "wowzers"
+    },
+    {
+      "id": "e509",
+      "title": "Pacific Rim",
+      "director": "Guillermo Del Toro",
+      "year": "2013",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_FMjpg_UX1000_.jpg",
+      "rating": "7",
+      "review": "Giant robot go brrrrrr"
+    },
+    {
+      "id": "e994",
+      "title": "Rise of the Planet of the Apes",
+      "director": "Rupert Wyatt",
+      "year": "2011",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjAyNDY2NzQ2MF5BMl5BanBnXkFtZTcwNjE3Njk5NQ@@._V1_.jpg",
+      "rating": "7",
+      "review": "monke"
+    },
+    {
+      "id": "9278",
+      "title": "The Grand Budapest Hotel",
+      "director": "Wes Anderson",
+      "year": "2014",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg",
+      "rating": "10",
+      "review": "And I said, that's not my lobby boy - that's my WIFE! HAHAHAHAHAHAHHAHAHAHHAHAHAHHA FUCK"
+    },
+    {
+      "id": "86a6",
+      "title": "Whiplash",
+      "director": "Damien Chazelle",
+      "year": "2015",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "rating": "10",
+      "review": "Not my FUCKING tempo *throws drum*"
+    }
+  ]
+}

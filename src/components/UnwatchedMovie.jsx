@@ -8,9 +8,19 @@ function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) 
         setShowImage(!showImage)
     }
 
+    function handleRemove(event) {
+      event.stopPropagation()
+      const filteredMovies = unwatchedMovies.filter(m => m.id !== unwatchedMovie.id)
+      setUnwatchedMovies(filteredMovies)
+
+      fetch(`http://localhost:3000/watchlisted/${unwatchedMovie.id}`, {
+          method: 'DELETE'
+      })
+  }
+
 
     return (
-        <div className="movie-item">
+        <div onClick={handleClick} className="movie-item">
 
       {
       showImage 
@@ -19,13 +29,13 @@ function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) 
       : 
       <div className="information">
         <h1 className="title" onClick={handleClick}>{unwatchedMovie.title}</h1>
-        <h2 className="director" onClick={handleClick}>{unwatchedMovie.director}</h2>
-        <h3 className="year" onClick={handleClick}>{unwatchedMovie.year}</h3>
+        <h3 className="director" onClick={handleClick}>{unwatchedMovie.director}</h3>
+        <h4 className="year" onClick={handleClick}>{unwatchedMovie.year}</h4>
         <br/>
         <button className='logbutton'><strong>Log Film</strong></button>
         <br/>
         <br/>
-        <button className='deletebutton'><strong>Remove</strong></button>
+        <button onClick={handleRemove} className='deletebutton'><strong>Remove</strong></button>
       </div>
       }
 

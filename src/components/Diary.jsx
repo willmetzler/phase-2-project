@@ -1,29 +1,65 @@
-import React, {useState, useEffect} from "react"
-import Movies from "./Movies"
+import React, { useState, useEffect } from "react";
+import Movies from "./Movies";
+import MovieForm from "./MovieForm";
+import EditMovies from "./EditMovies";
 
-function Diary () {
-    const [movies, setMovies] = useState([])
+function Diary() {
+  const [movies, setMovies] = useState([]);
+  const [editMovie, setEditMovie] = useState(null);
 
-    useEffect(() => {
-        fetch("http://localhost:3000/movies")
-        .then(res => res.json())
-        .then(movieData => setMovies(movieData))
-    }, [])
+  useEffect(() => {
+    fetch("http://localhost:3000/movies")
+      .then((res) => res.json())
+      .then((movieData) => setMovies(movieData));
+  }, []);
 
-    const mappedMovies = movies.map( movie => {
-        return (<Movies movies={movies} movie={movie} setMovies={setMovies} />)
+  function handleEdit(movie) {
+    setEditMovie(movie);
+  }
+
+  function handleEditFormSubmit(updatedMovie) {
+    fetch(`http://localhost:3000/movies/${updatedMovie.id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(updatedMovie),
     })
+      .then(res => res.json())
+      .then(updatedMovieData => {
+        setMovies(movies.map(movie => 
+          movie.id === updatedMovieData.id ? updatedMovieData : movie
+        ));
+        setEditMovie(null); 
+      })
+      .catch(error => console.error('Error updating movie:', error));
+  }
 
-    return (
-        <>
-        <h2 className="subheader">My Movies</h2>
-            <div className="grid with-sidebar">
-                    <div className="flex-container">
-                        {mappedMovies}
-                    </div>
-            </div>
-        </>
-    )
+  return (
+    <>
+      <div className="edit-form">
+        {editMovie && <EditMovies movie={editMovie} onSubmit={handleEditFormSubmit} />}
+      </div>
+      <h2 className="subheader">My Movies</h2>
+      <div className="grid with-sidebar">
+        <div className="flex-container">
+          {movies.map((movie) => (
+            <Movies
+              key={movie.id}
+              movie={movie}
+              movies={movies}
+              setMovies={setMovies}
+              handleEdit={() => handleEdit(movie)}
+            />
+          ))}
+        </div>
+
+        <div className="sidebar">
+          <MovieForm setMovies={setMovies} />
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Diary
+export default Diary;

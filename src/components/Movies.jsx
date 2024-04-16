@@ -1,36 +1,64 @@
 import React, {useState} from "react";
 
-function Movies ({movie, movies, setMovies}) {
+function Movies ({movie, movies, setMovies, handleEdit}) {
 
-    const [showImage, setShowImage] = useState(true)
+  const [displayMode, setDisplayMode] = useState(1);
 
-    function handleClick(){
-        setShowImage(!showImage)
-    }
+  const toggleDisplayMode = () => {
+    setDisplayMode((mode) => (mode % 3) + 1);
+  };
+
+  function handleRemove() {
+    console.log('Delete button clicked');
+    const filteredMovies = movies.filter(m => m.id !== movie.id);
+    setMovies(filteredMovies);
+
+    fetch(`http://localhost:3000/movies/${movie.id}`, {
+        method: 'DELETE'
+    })
+    .catch(error => console.error('Error deleting movie:', error));
+}
 
     return (
-        <div className="movie-item">
+      <div className="movie-item" onClick={toggleDisplayMode}>
+      <div className="border-box">
+        {displayMode === 1 && (
+          <img className="posters" src={movie.image} alt={movie.title} />
+        )}
 
-      {
-      showImage 
-      ? 
-      <img className="posters" onClick={handleClick} src={movie.image} alt={movie.title} />
-      : 
-      <>
-      <div className="information">
-        <h1 className="title" onClick={handleClick}>{movie.title}</h1>
-        <h2 className="director" onClick={handleClick}>{movie.director}</h2>
-        <h3 className="year" onClick={handleClick}>{movie.year}</h3>
-        <h3 id="movie-rating" onClick={handleClick}>{movie.rating}</h3>
-        <button className='editbutton'><strong>Edit</strong></button>
-        <button className='deletebutton'><strong>Remove</strong></button>
+        {displayMode === 2 && (
+          <div className="information">
+            <h1 className="title">{movie.title}</h1>
+            <h3 className="director">Director: {movie.director}</h3>
+            <h4 className="year">Year: {movie.year}</h4>
+            <h4 className="rating">Rating: {movie.rating}</h4>
+            <div className="button-container">
+              <button className="editbutton" onClick={handleEdit}>
+                Edit
+              </button>
+              <button className="deletebutton" onClick={handleRemove}>
+                Remove
+              </button>
+            </div>
+          </div>
+        )}
+
+        {displayMode === 3 && (
+          <div className="information">
+            <p className="review-text">{movie.review}</p>
+            <div className="button-container">
+              <button className="editbutton" onClick={handleEdit}>
+                Edit
+              </button>
+              <button className="deletebutton" onClick={handleRemove}>
+                Remove
+              </button>
+            </div>
+          </div>
+        )}
       </div>
-        <p id="review-text" onClick={handleClick}>{movie.review}</p>
-    </>
-      }
-
     </div>
-    )
+  );
 }
 
 export default Movies

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react"
 import UnwatchedMovie from "./UnwatchedMovie"
+import WatchlistForm from "./WatchlistForm"
 
 function Watchlist () {
 
@@ -21,6 +22,10 @@ function Watchlist () {
             <div className="grid with-sidebar">
                     <div className="flex-container">
                         {mappedUnwatched}
+                    </div>
+
+                    <div className="sidebar">
+                        <WatchlistForm unwatchedMovies={unwatchedMovies} setUnwatchedMovies={setUnwatchedMovies} />
                     </div>
             </div>
         </>
