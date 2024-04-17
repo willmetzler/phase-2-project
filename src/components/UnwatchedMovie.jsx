@@ -2,11 +2,11 @@ import {useState} from 'react'
 
 function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) {
 
-    const [showImage, setShowImage] = useState(true)
+    const [displayMode, setDisplayMode] = useState(1);
 
-    function handleClick(){
-        setShowImage(!showImage)
-    }
+    const toggleDisplayMode = () => {
+      setDisplayMode((mode) => (mode % 2) + 1);
+    };
 
     function handleRemove(event) {
       event.stopPropagation()
@@ -19,28 +19,28 @@ function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) 
   }
 
 
-    return (
-        <div onClick={handleClick} className="movie-item">
+  return (
+    <div className="movie-item" onClick={toggleDisplayMode}>
+    <div className={`border-box mode-${displayMode}`}>
+      {displayMode === 1 && (
+        <img className="posters" src={unwatchedMovie.image} alt={unwatchedMovie.title} />
+      )}
 
-      {
-      showImage 
-      ? 
-      <img className="posters" onClick={handleClick} src={unwatchedMovie.image} alt={unwatchedMovie.title} />
-      : 
-      <div className="information">
-        <h1 className="title" onClick={handleClick}>{unwatchedMovie.title}</h1>
-        <h3 className="director" onClick={handleClick}>{unwatchedMovie.director}</h3>
-        <h4 className="year" onClick={handleClick}>{unwatchedMovie.year}</h4>
-        <br/>
-        <button className='logbutton'><strong>Log Film</strong></button>
-        <br/>
-        <br/>
-        <button onClick={handleRemove} className='deletebutton'><strong>Remove</strong></button>
-      </div>
-      }
-
+      {displayMode === 2 && (
+        <div className="information">
+          <h1 className="title">{unwatchedMovie.title}</h1>
+          <h3 className="director">Director: {unwatchedMovie.director}</h3>
+          <h4 className="year">Year: {unwatchedMovie.year}</h4>
+          <div className="button-container">
+            <button className="deletebutton" onClick={handleRemove}>
+              Remove
+            </button>
+          </div>
+        </div>
+      )}
     </div>
-    )
+  </div>
+);
 }
 
 export default UnwatchedMovie

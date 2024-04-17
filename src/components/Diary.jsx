@@ -36,10 +36,10 @@ function Diary() {
   }
 
   return (
-    <>
-      <div className="edit-form">
-        {editMovie && <EditMovies movie={editMovie} onSubmit={handleEditFormSubmit} />}
-      </div>
+    <div id="movie-diary">
+        <div className="edit-form">
+            {editMovie && <EditMovies movie={editMovie} onSubmit={handleEditFormSubmit}/>}
+        </div>
       <h2 className="subheader">My Movies</h2>
       <div className="grid with-sidebar">
         <div className="flex-container">
@@ -58,7 +58,7 @@ function Diary() {
           <MovieForm setMovies={setMovies} />
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

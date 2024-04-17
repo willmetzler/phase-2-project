@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <div className="main-header">
-        <img width={170} height={170} src="src/assets/letterboxdinlogofinal.png" />
+        <img id="main-logo" width={170} height={170} src="src/assets/letterboxdinlogofinal.png" />
         <h1 id="main-title" >Letterboxd In</h1>
       </div>
 

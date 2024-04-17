@@ -13,7 +13,7 @@ function Watchlist () {
     }, [])
 
     const mappedUnwatched = unwatchedMovies.map( unwatchedMovie => {
-        return (<UnwatchedMovie unwatchedMovies={unwatchedMovies} unwatchedMovie={unwatchedMovie} setUnwatchedMovies={setUnwatchedMovies} />)
+        return (<UnwatchedMovie key={unwatchedMovie.id} unwatchedMovies={unwatchedMovies} unwatchedMovie={unwatchedMovie} setUnwatchedMovies={setUnwatchedMovies} />)
     })
 
     return (

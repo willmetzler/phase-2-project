@@ -8,8 +8,8 @@ function Movies ({movie, movies, setMovies, handleEdit}) {
     setDisplayMode((mode) => (mode % 3) + 1);
   };
 
-  function handleRemove() {
-    console.log('Delete button clicked');
+  function handleRemove(e) {
+    e.stopPropagation()
     const filteredMovies = movies.filter(m => m.id !== movie.id);
     setMovies(filteredMovies);
 
@@ -21,7 +21,7 @@ function Movies ({movie, movies, setMovies, handleEdit}) {
 
     return (
       <div className="movie-item" onClick={toggleDisplayMode}>
-      <div className="border-box">
+      <div className={`border-box mode-${displayMode}`}>
         {displayMode === 1 && (
           <img className="posters" src={movie.image} alt={movie.title} />
         )}

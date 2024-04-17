@@ -7,7 +7,9 @@ body {
 }
 
 .main-header {
-    display:flex;
+    display: flex;
+    align-items: center;
+  
 }
 
 #main-title {
@@ -27,6 +29,10 @@ body {
     text-decoration: underline;
 }
 
+.about-text {
+    max-width: 50%;
+}
+
 .contact-info {
     margin-left:25px;
 }
@@ -35,8 +41,26 @@ body {
   position: relative;
 }
 
-.border-box {
+.border-box.mode-1 {
   border: solid #43bbf3 10px;
+  width: 220px;
+  height: 335px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.border-box.mode-2 {
+  border: solid #fb8304 10px;
+  width: 220px;
+  height: 335px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.border-box.mode-3 {
+  border: solid #04e354 10px;
   width: 220px;
   height: 335px;
   margin: 10px;
@@ -97,7 +121,6 @@ body {
     grid-template-columns:5fr 1fr ;
 }
 
-
 .deletebutton {
     border: solid black 2px;
     border-radius: 0.5em;
@@ -148,9 +171,47 @@ input {
     margin-top: 0.5em;
 }
 
-.edit-form {
-    flex-wrap: wrap;
-}
+#edit-border {
+    border: solid #fb8304 5px;
+    padding: 1em;
+  }
+  
+  .edit-form {
+    width: 1000px; /* Adjust the width as needed */
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 1em;
+  }
+  
+  .form-column {
+    flex: 1;
+    padding-right: 1em;
+  }
+  
+  .form-group {
+    margin-bottom: 1em;
+  }
+  
+  .edit-form label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .edit-form input,
+  .edit-form textarea,
+  .edit-form select {
+    width: 80%; 
+    padding: 0.5em;
+  }
+  
+  .edit-form button {
+    background-color: #fb8304;
+    border: solid black, 2px;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+  }
   
 .sidebar {
     background-color: #202830;
