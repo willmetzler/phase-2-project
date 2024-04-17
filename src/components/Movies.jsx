@@ -10,15 +10,21 @@ function Movies ({movie, movies, setMovies, handleEdit}) {
 
   function handleRemove(e) {
     e.stopPropagation()
-    const filteredMovies = movies.filter(m => m.id !== movie.id);
-    setMovies(filteredMovies);
+    const isConfirmed = window.confirm("Are you sure you want to delete this movie?");
 
-    fetch(`http://localhost:3000/movies/${movie.id}`, {
-        method: 'DELETE'
-    })
-    .catch(error => console.error('Error deleting movie:', error));
-}
+    if (isConfirmed) {
+        const filteredMovies = movies.filter(m => m.id !== movie.id);
+        setMovies(filteredMovies);
 
+        fetch(`http://localhost:3000/movies/${movie.id}`, {
+            method: 'DELETE'
+        })
+        .catch(error => console.error('Error deleting movie:', error));
+    } else {
+        console.log("Deletion cancelled by user.");
+    }
+  }
+  
     return (
       <div className="movie-item" onClick={toggleDisplayMode}>
       <div className={`border-box mode-${displayMode}`}>
@@ -33,10 +39,10 @@ function Movies ({movie, movies, setMovies, handleEdit}) {
             <h4 className="year">Year: {movie.year}</h4>
             <h4 className="rating">Rating: {movie.rating}</h4>
             <div className="button-container">
-              <button className="editbutton" onClick={handleEdit}>
+              <button className="edit-button" onClick={handleEdit}>
                 Edit
               </button>
-              <button className="deletebutton" onClick={handleRemove}>
+              <button className="delete-button" onClick={handleRemove}>
                 Remove
               </button>
             </div>
@@ -47,10 +53,10 @@ function Movies ({movie, movies, setMovies, handleEdit}) {
           <div className="information">
             <p className="review-text">{movie.review}</p>
             <div className="button-container">
-              <button className="editbutton" onClick={handleEdit}>
+              <button className="edit-button" onClick={handleEdit}>
                 Edit
               </button>
-              <button className="deletebutton" onClick={handleRemove}>
+              <button className="delete-button" onClick={handleRemove}>
                 Remove
               </button>
             </div>
@@ -61,4 +67,4 @@ function Movies ({movie, movies, setMovies, handleEdit}) {
   );
 }
 
-export default Movies
+export default Movies;

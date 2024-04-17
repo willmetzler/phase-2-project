@@ -8,6 +8,44 @@ function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) 
       setDisplayMode((mode) => (mode % 2) + 1);
     };
 
+    function handleLogFilm (event) {
+      const rating = prompt("Enter rating:");
+      const review = prompt("Enter review:");
+
+      event.stopPropagation()
+      const filteredMovies = unwatchedMovies.filter(m => m.id !== unwatchedMovie.id)
+      setUnwatchedMovies(filteredMovies)
+
+      fetch(`http://localhost:3000/watchlisted/${unwatchedMovie.id}`, {
+            method: 'DELETE'
+        })
+        .then(response => {
+                const loggedMovie = {
+                    title: unwatchedMovie.title,
+                    director: unwatchedMovie.director,
+                    year: unwatchedMovie.year,
+                    image: unwatchedMovie.image,
+                    rating: rating,
+                    review: review
+                };
+
+                fetch("http://localhost:3000/movies", {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(loggedMovie)
+                })
+                .then(response => response.json())
+                .then(newLoggedMovie => {
+                    const updatedUnwatchedMovies = unwatchedMovies.filter(movie => movie.id !== unwatchedMovie.id);
+                    setUnwatchedMovies(updatedUnwatchedMovies);
+                })
+                .catch(error => console.error('Error logging movie:', error));
+            })   
+    }
+    
+
     function handleRemove(event) {
       event.stopPropagation()
       const filteredMovies = unwatchedMovies.filter(m => m.id !== unwatchedMovie.id)
@@ -32,7 +70,10 @@ function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) 
           <h3 className="director">Director: {unwatchedMovie.director}</h3>
           <h4 className="year">Year: {unwatchedMovie.year}</h4>
           <div className="button-container">
-            <button className="deletebutton" onClick={handleRemove}>
+          <button className="log-button" onClick={handleLogFilm}>
+              Log Film
+            </button>
+            <button className="delete-button" onClick={handleRemove}>
               Remove
             </button>
           </div>

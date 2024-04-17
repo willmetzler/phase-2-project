@@ -27,6 +27,7 @@ body {
 .contact-type {
     margin-left: 11px;
     text-decoration: underline;
+    color: #fb8304;
 }
 
 .about-text {
@@ -37,35 +38,52 @@ body {
     margin-left:25px;
 }
 
+#site-directory {
+    color: #43bbf3;
+}
+
+.directory-details {
+    margin-left: 25px;
+}
+
+.directory-section {
+    margin-left: 11px;
+    color:#fb8304;
+    text-decoration: underline;
+}
+
 .movie-item {
   position: relative;
 }
 
 .border-box.mode-1 {
   border: solid #43bbf3 10px;
-  width: 220px;
+  width: 225px;
   height: 335px;
   margin: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 35px;
 }
 
 .border-box.mode-2 {
   border: solid #fb8304 10px;
-  width: 220px;
+  width: 225px;
   height: 335px;
   margin: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 35px;
 }
 
 .border-box.mode-3 {
   border: solid #04e354 10px;
-  width: 220px;
+  width: 225px;
   height: 335px;
   margin: 10px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 35px;
 }
 
 .posters {
@@ -97,11 +115,11 @@ body {
   text-align: center;
 }
 
-.editbutton,
-.deletebutton {
+.edit-button,
+.log-button,
+.delete-button {
   border: solid black 2px;
   border-radius: 0.5em;
-  background: #04e354;
   margin-right: 5px;
   padding: 5px 10px;
 }
@@ -121,19 +139,19 @@ body {
     grid-template-columns:5fr 1fr ;
 }
 
-.deletebutton {
+.delete-button {
     border: solid black 2px;
     border-radius: 0.5em;
     background: #fb8304;
 }
 
-.logbutton {
+.log-button {
     border: solid black 2px;
     border-radius: 0.5em;
     background: #04e354;
 }
 
-.editbutton {
+.edit-button {
     border: solid black 2px;
     border-radius: 0.5em;
     background: #04e354;
@@ -142,7 +160,7 @@ body {
 input {
     border: solid black 2px;
 }
- 
+
 .movie-form-label {
     color: #04e354;
 }
@@ -152,9 +170,11 @@ input {
 }
 
 #submit-movie-form {
+    background: #04e354;
     border: solid black 2px;
     border-radius: 0.5em;
-    background: #04e354;
+    margin-right: 5px;
+    padding: 5px 10px;
 }
 
 #review-area {
@@ -177,7 +197,7 @@ input {
   }
   
   .edit-form {
-    width: 1000px; /* Adjust the width as needed */
+    width: 1000px; 
   }
   
   .form-row {
@@ -212,11 +232,13 @@ input {
     padding: 0.5em 1em;
     border-radius: 0.5em;
   }
-  
-.sidebar {
-    background-color: #202830;
-    border: solid #fb8304 5px;
-    padding: 1em;
+
+.movie-form {
+  border: solid #fb8304 5px;
+  padding: 1em;
+  margin: 1em;
 }
+
+
 
 

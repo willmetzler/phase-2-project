@@ -1,13 +1,6 @@
 {
   "watchlisted": [
     {
-      "id": "1",
-      "title": "The Holdovers",
-      "director": "Alexander Payne",
-      "year": 2023,
-      "image": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
       "id": "2",
       "title": "American Fiction",
       "director": "Cord Jefferson",
@@ -20,27 +13,6 @@
       "director": "Jonathan Glazer",
       "year": 2023,
       "image": "https://m.media-amazon.com/images/M/MV5BYzRmOGQwZjktYjM2Ni00M2NmLWFlZDYtZGFhM2RkM2VhZDI1XkEyXkFqcGdeQXVyMTM1NjM2ODg1._V1_.jpg"
-    },
-    {
-      "id": "5",
-      "title": "Oppenheimer",
-      "director": "Christopher Nolan",
-      "year": 2023,
-      "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
-      "id": "6",
-      "title": "Poor Things",
-      "director": "Yorgos Lanthimos",
-      "year": 2023,
-      "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
-    },
-    {
-      "id": "7",
-      "title": "Past Lives",
-      "director": "Celine Song",
-      "year": 2023,
-      "image": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
     },
     {
       "id": "8",
@@ -64,11 +36,53 @@
       "image": "https://m.media-amazon.com/images/M/MV5BMTdiOTg2YmQtZTdjNi00NGJjLWI2ZTQtYWNkNDUwMDEzOTQxXkEyXkFqcGdeQXVyMTAxNzQ1NzI@._V1_FMjpg_UX1000_.jpg"
     },
     {
-      "id": "3eaa",
-      "title": "Barbie",
-      "director": "Greta Gerwig",
+      "id": "d4dc",
+      "title": "Portrait of a Lady on Fire",
+      "director": "Céline Sciamma",
+      "year": "2019",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjgwNjkwOWYtYmM3My00NzI1LTk5OGItYWY0OTMyZTY4OTg2XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg"
+    },
+    {
+      "id": "51ea",
+      "title": "Monkey Man",
+      "director": "Dev Patel",
+      "year": "2024",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzZlODVjMzgtZGM1Yi00MWMwLTkyYTQtMzJlZjQ4MDgwYzg4XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "e096",
+      "title": "Civil War",
+      "director": "Alex Garland",
+      "year": "2024",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTYyODhlODktYjUzNC00NjUyLWI1MzYtNmI0MTY3YTUxYjY2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "cfac",
+      "title": "Minari",
+      "director": "Lee Isaac Chung",
+      "year": "2020",
+      "image": "https://m.media-amazon.com/images/M/MV5BMWRiYmM5MDktOTRmOS00NDc3LWE2NTItMTYyOGExYTFlMzcyXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg"
+    },
+    {
+      "id": "f39e",
+      "title": "Frances Ha",
+      "director": "Noah Baumbach",
+      "year": "2012",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTY0NDQ2NzQ2N15BMl5BanBnXkFtZTcwMTU0OTkwOQ@@._V1_.jpg"
+    },
+    {
+      "id": "d8f7",
+      "title": "The Boy and the Heron",
+      "director": "Hayao Miyazaki",
       "year": "2023",
-      "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+      "image": "https://m.media-amazon.com/images/M/MV5BZjZkNThjNTMtOGU0Ni00ZDliLThmNGUtZmMxNWQ3YzAxZTQ1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "5aee",
+      "title": "Past Lives",
+      "director": "Celine Song",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
     }
   ],
   "movies": [
@@ -80,15 +94,6 @@
       "image": "https://m.media-amazon.com/images/M/MV5BNDc2MzNkMjMtZDY5NC00NmQ0LWI1NjctZjRhNWIzZjc4MGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
       "rating": "9",
       "review": "My new favorite Christmas movie!"
-    },
-    {
-      "id": "4",
-      "title": "Barbie",
-      "director": "Greta Gerwig",
-      "year": 2023,
-      "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
-      "rating": "6",
-      "review": "Kenough"
     },
     {
       "id": "5",
@@ -106,7 +111,7 @@
       "year": 2023,
       "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
       "rating": "7",
-      "review": "weird"
+      "review": "Genuinely weird movie with some of the best set design I've ever seen"
     },
     {
       "id": "7fab",
@@ -115,7 +120,7 @@
       "year": "2023",
       "image": "https://m.media-amazon.com/images/M/MV5BN2QyZGU4ZDctOWMzMy00NTc5LThlOGQtODhmNDI1NmY5YzAwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg",
       "rating": "10",
-      "review": "wowzers"
+      "review": "Best IMAX theater experience I've ever had probably. Denis is all hits no misses"
     },
     {
       "id": "e509",
@@ -132,7 +137,7 @@
       "director": "Rupert Wyatt",
       "year": "2011",
       "image": "https://m.media-amazon.com/images/M/MV5BMjAyNDY2NzQ2MF5BMl5BanBnXkFtZTcwNjE3Njk5NQ@@._V1_.jpg",
-      "rating": "7",
+      "rating": "8",
       "review": "apes together strong!!"
     },
     {
@@ -152,6 +157,105 @@
       "image": "https://m.media-amazon.com/images/M/MV5BOTA5NDZlZGUtMjAxOS00YTRkLTkwYmMtYWQ0NWEwZDZiNjEzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
       "rating": "10",
       "review": "NOT MY TEMPO"
+    },
+    {
+      "id": "3ad1",
+      "title": "The Lighthouse",
+      "director": "Robert Eggers",
+      "year": "2016",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
+      "rating": "8",
+      "review": "Some days I feel like Robert Pattinson moments before he smashes the seagull on a rock, and some days I feel like the seagull. "
+    },
+    {
+      "id": "551e",
+      "title": "Midsommar",
+      "director": "Ari Aster",
+      "year": "2019",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_.jpg",
+      "rating": "9",
+      "review": "Bro I'm tweaking I'm literally tweaking what the fuck stop it dude stop it"
+    },
+    {
+      "id": "fe98",
+      "title": "The Batman",
+      "director": "Matt Reeves",
+      "year": "2022",
+      "image": "https://m.media-amazon.com/images/M/MV5BYTExZTdhY2ItNGQ1YS00NjJlLWIxMjYtZTI1MzNlMzY0OTk4XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "rating": "9",
+      "review": "hey that's literally me"
+    },
+    {
+      "id": "8532",
+      "title": "The Nice Guys",
+      "director": "Shane Black",
+      "year": "2016",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjcwNDA5MDYyNl5BMl5BanBnXkFtZTgwNjg0NDkzNzE@._V1_FMjpg_UX1000_.jpg",
+      "rating": "8",
+      "review": "criminally underrated and once again this is literally me"
+    },
+    {
+      "id": "1012",
+      "title": "Drive",
+      "director": "Nicolas Winding Refn",
+      "year": "2011",
+      "image": "https://m.media-amazon.com/images/M/MV5BZjY5ZjQyMjMtMmEwOC00Nzc2LTllYTItMmU2MzJjNTg1NjY0XkEyXkFqcGdeQXVyNjQ1MTMzMDQ@._V1_FMjpg_UX1000_.jpg",
+      "rating": "7",
+      "review": "LITERALLY ME"
+    },
+    {
+      "id": "21bc",
+      "title": "Asteroid City",
+      "director": "Wes Anderson",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNDJmMzY0ZGUtYWE1My00OWViLTg1NTctOWMwZWJlNDQzNGRiXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_FMjpg_UX1000_.jpg",
+      "rating": "7",
+      "review": "\"I still don't understand the play\""
+    },
+    {
+      "id": "a745",
+      "title": "Barbie",
+      "director": "Greta Gerwig",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
+      "rating": "6",
+      "review": "Kenough. -1 point for having a literal car commercial in the middle of the fucking movie"
+    },
+    {
+      "id": "51e4",
+      "title": "The Killer",
+      "director": "David Fincher",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BZGJkMDUwZWQtYTMzMS00NTg5LWE1ZTYtOTVhMDI4NGI1YjMyXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_FMjpg_UX1000_.jpg",
+      "rating": "7",
+      "review": "The first 15 minutes were the best part of the movie. Fassbender was great, and it was decently suspenseful but it doesn't make you care about the stakes enough and the ending was pretty unsatisfying. Definitely had that Fincher charm though and is probably still worth watching"
+    },
+    {
+      "id": "aca4",
+      "title": "Dune",
+      "director": "Denis Villeneuve",
+      "year": "2021",
+      "image": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
+      "rating": "9",
+      "review": "Even better on rewatch after seeing part 2"
+    },
+    {
+      "id": "f493",
+      "title": "Ex Machina ",
+      "director": "Alex Garland",
+      "year": "2014",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_.jpg",
+      "rating": "8",
+      "review": "Oscar Issac dance scene goes absolutely stupid hard"
+    },
+    {
+      "id": "fb4c",
+      "title": "Trainspotting",
+      "director": "Danny Boyle",
+      "year": "1996",
+      "image": "https://m.media-amazon.com/images/M/MV5BM2RkYjFjYzktY2M4Ni00N2E1LTg3MWEtMWM1ODU4Njg5OTEzXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_FMjpg_UX1000_.jpg",
+      "rating": "10",
+      "review": "Choose Life. Choose a job. Choose a career. Choose a family. Choose a fucking big television, choose washing machines, cars, compact disc players and electrical tin openers. Choose good health, low cholesterol, and dental insurance. Choose fixed interest mortage repayments. Choose a starter home. Choose your friends. Choose leisurewear and matching luggage. Choose a three-piece suite on hire purchase in a range of fucking fabrics. Choose DIY and wondering who the fuck you are on a Sunday morning. Choose sitting on that couch watching mind-numbing, spirit-crushing game shows, stuffing fucking junk food into your mouth. Choose rotting away at the end of it all, pishing your last in a miserable home, nothing more than an embarrassment to the selfish, fucked up brats you spawned to replace yourself. Choose your future. Choose life… But why would I want to do a thing like that? I chose not to choose life. I chose somethin’ else. And the reasons? There are no reasons. Who needs reasons when you’ve got heroin?"
     }
   ]
 }

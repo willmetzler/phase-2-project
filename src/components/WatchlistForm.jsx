@@ -55,7 +55,7 @@ function WatchlistForm ({setUnwatchedMovies}) {
             onChange={(event) => setUnwatchedFormData( {...unwatchedFormData, year: event.target.value} )}
             />
 
-            <input id="submit-movie-form" type="submit" value="Log Film" />
+            <input id="submit-movie-form" type="submit" value="Add Film" />
 
         </form>
     )

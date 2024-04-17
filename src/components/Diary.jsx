@@ -55,7 +55,7 @@ function Diary() {
         </div>
 
         <div className="sidebar">
-          <MovieForm setMovies={setMovies} />
+          <MovieForm className="movie-form" setMovies={setMovies} />
         </div>
       </div>
     </div>
