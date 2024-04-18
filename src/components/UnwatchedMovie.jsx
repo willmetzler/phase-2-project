@@ -48,13 +48,20 @@ function UnwatchedMovie ({unwatchedMovie ,unwatchedMovies, setUnwatchedMovies}) 
 
     function handleRemove(event) {
       event.stopPropagation()
+      const isConfirmed = window.confirm("Are you sure you want to delete this movie?");
+
+    if (isConfirmed) {
       const filteredMovies = unwatchedMovies.filter(m => m.id !== unwatchedMovie.id)
       setUnwatchedMovies(filteredMovies)
 
       fetch(`http://localhost:3000/watchlisted/${unwatchedMovie.id}`, {
           method: 'DELETE'
       })
-  }
+  } else {
+    console.log("Deletion cancelled by user.");
+}
+}
+      
 
 
   return (
