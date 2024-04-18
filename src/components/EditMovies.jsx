@@ -33,6 +33,7 @@ function EditMovies({ movie, onSubmit }) {
             <div className="form-group">
               <label htmlFor="title">Title: </label>
               <input
+                className='input-box'
                 type="text"
                 name="title"
                 value={editedMovie.title}
@@ -42,6 +43,7 @@ function EditMovies({ movie, onSubmit }) {
             <div className="form-group">
               <label htmlFor="director">Director: </label>
               <input
+                className='input-box'
                 type="text"
                 name="director"
                 value={editedMovie.director}
@@ -51,13 +53,14 @@ function EditMovies({ movie, onSubmit }) {
             <div className="form-group">
               <label htmlFor="rating">Rating: </label>
               <select
+                className='input-box'
                 name="rating"
                 value={editedMovie.rating}
                 onChange={handleChange}
               >
-                {[...Array(10)].map((_, index) => (
-                  <option key={index} value={index + 1}>
-                    {index + 1}
+                {[...Array(20)].map((_, index) => (
+                  <option key={index} value={(index + 1) / 2}>
+                    {(index + 1) / 2}
                   </option>
                 ))}
               </select>
@@ -67,6 +70,7 @@ function EditMovies({ movie, onSubmit }) {
             <div className="form-group">
               <label htmlFor="year">Year: </label>
               <input
+                className='input-box'
                 type="number"
                 name="year"
                 value={editedMovie.year}
@@ -76,6 +80,7 @@ function EditMovies({ movie, onSubmit }) {
             <div className="form-group">
               <label htmlFor="image">Image URL: </label>
               <input
+                className='input-box'
                 type="text"
                 name="image"
                 value={editedMovie.image}
@@ -87,6 +92,7 @@ function EditMovies({ movie, onSubmit }) {
             <div className="form-group">
               <label htmlFor="review">Review: </label>
               <textarea
+                className='input-box'
                 name="review"
                 value={editedMovie.review}
                 onChange={handleChange}

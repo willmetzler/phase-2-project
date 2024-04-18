@@ -83,6 +83,55 @@
       "director": "Celine Song",
       "year": "2023",
       "image": "https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "667b",
+      "title": "Moonlight",
+      "director": "Barry Jenkins",
+      "year": "2016",
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "4982",
+      "title": "Hereditary",
+      "director": "Ari Aster",
+      "year": "2018",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTU5MDg3OGItZWQ1Ny00ZGVmLTg2YTUtMzBkYzQ1YWIwZjlhXkEyXkFqcGdeQXVyNTAzMTY4MDA@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "4ef5",
+      "title": "Beau is Afraid",
+      "director": "Ari Aster",
+      "year": "2023",
+      "image": "https://m.media-amazon.com/images/M/MV5BMzhkNDk1MDQtNmE4ZS00OTkxLWJmNzYtOTBhZTk3M2MzMTRjXkEyXkFqcGdeQXVyNjkwOTQ4MDE@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "ec93",
+      "title": "2001: A Space Odyssey",
+      "director": "Stanley Kubrick",
+      "year": "1968",
+      "image": "https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "8a09",
+      "title": "Barry Lyndon",
+      "director": "Stanley Kubrick",
+      "year": "1975",
+      "image": "https://m.media-amazon.com/images/M/MV5BNmY0MWY2NDctZDdmMi00MjA1LTk0ZTQtZDMyZTQ1NTNlYzVjXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
+    },
+    {
+      "id": "899c",
+      "title": "The King of Comedy",
+      "director": "Martin Scorcese",
+      "year": "1982",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE1YjBlNTItYjM0YS00ZTBjLWI0Y2EtNDg2NGZlOTZlMDk2XkEyXkFqcGdeQXVyNjc5NjEzNA@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": "f51f",
+      "title": "Nightcrawler",
+      "director": "Dan Gilroy",
+      "year": "2014",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjE4NDg2NTcwNl5BMl5BanBnXkFtZTgwMTIwMDYyMjI@._V1_.jpg"
     }
   ],
   "movies": [
@@ -101,7 +150,7 @@
       "director": "Christopher Nolan",
       "year": 2023,
       "image": "https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_FMjpg_UX1000_.jpg",
-      "rating": "10",
+      "rating": "9.5",
       "review": "Better than barbie, sorry!"
     },
     {
@@ -110,7 +159,7 @@
       "director": "Yorgos Lanthimos",
       "year": 2023,
       "image": "https://m.media-amazon.com/images/M/MV5BNGIyYWMzNjktNDE3MC00YWQyLWEyMmEtN2ZmNzZhZDk3NGJlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg",
-      "rating": "7",
+      "rating": "7.5",
       "review": "Genuinely weird movie with some of the best set design I've ever seen"
     },
     {
@@ -137,7 +186,7 @@
       "director": "Rupert Wyatt",
       "year": "2011",
       "image": "https://m.media-amazon.com/images/M/MV5BMjAyNDY2NzQ2MF5BMl5BanBnXkFtZTcwNjE3Njk5NQ@@._V1_.jpg",
-      "rating": "8",
+      "rating": "7",
       "review": "apes together strong!!"
     },
     {
@@ -164,7 +213,7 @@
       "director": "Robert Eggers",
       "year": "2016",
       "image": "https://m.media-amazon.com/images/M/MV5BZmE0MGJhNmYtOWNjYi00Njc5LWE2YjEtMWMxZTVmODUwMmMxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg",
-      "rating": "8",
+      "rating": "8.5",
       "review": "Some days I feel like Robert Pattinson moments before he smashes the seagull on a rock, and some days I feel like the seagull. "
     },
     {
@@ -200,7 +249,7 @@
       "director": "Nicolas Winding Refn",
       "year": "2011",
       "image": "https://m.media-amazon.com/images/M/MV5BZjY5ZjQyMjMtMmEwOC00Nzc2LTllYTItMmU2MzJjNTg1NjY0XkEyXkFqcGdeQXVyNjQ1MTMzMDQ@._V1_FMjpg_UX1000_.jpg",
-      "rating": "7",
+      "rating": "6.5",
       "review": "LITERALLY ME"
     },
     {
@@ -218,7 +267,7 @@
       "director": "Greta Gerwig",
       "year": "2023",
       "image": "https://m.media-amazon.com/images/M/MV5BNjU3N2QxNzYtMjk1NC00MTc4LTk1NTQtMmUxNTljM2I0NDA5XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg",
-      "rating": "6",
+      "rating": "6.5",
       "review": "Kenough. -1 point for having a literal car commercial in the middle of the fucking movie"
     },
     {
@@ -236,7 +285,7 @@
       "director": "Denis Villeneuve",
       "year": "2021",
       "image": "https://m.media-amazon.com/images/M/MV5BMDQ0NjgyN2YtNWViNS00YjA3LTkxNDktYzFkZTExZGMxZDkxXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg",
-      "rating": "9",
+      "rating": "8.5",
       "review": "Even better on rewatch after seeing part 2"
     },
     {
@@ -245,7 +294,7 @@
       "director": "Alex Garland",
       "year": "2014",
       "image": "https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_.jpg",
-      "rating": "8",
+      "rating": "8.5",
       "review": "Oscar Issac dance scene goes absolutely stupid hard"
     },
     {
@@ -256,6 +305,33 @@
       "image": "https://m.media-amazon.com/images/M/MV5BM2RkYjFjYzktY2M4Ni00N2E1LTg3MWEtMWM1ODU4Njg5OTEzXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_FMjpg_UX1000_.jpg",
       "rating": "10",
       "review": "Choose Life. Choose a job. Choose a career. Choose a family. Choose a fucking big television, choose washing machines, cars, compact disc players and electrical tin openers. Choose good health, low cholesterol, and dental insurance. Choose fixed interest mortage repayments. Choose a starter home. Choose your friends. Choose leisurewear and matching luggage. Choose a three-piece suite on hire purchase in a range of fucking fabrics. Choose DIY and wondering who the fuck you are on a Sunday morning. Choose sitting on that couch watching mind-numbing, spirit-crushing game shows, stuffing fucking junk food into your mouth. Choose rotting away at the end of it all, pishing your last in a miserable home, nothing more than an embarrassment to the selfish, fucked up brats you spawned to replace yourself. Choose your future. Choose life… But why would I want to do a thing like that? I chose not to choose life. I chose somethin’ else. And the reasons? There are no reasons. Who needs reasons when you’ve got heroin?"
+    },
+    {
+      "id": "feac",
+      "title": "Spirited Away",
+      "director": "Hayao Miyazaki",
+      "year": "2001",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "rating": "10",
+      "review": "mf was a whole ass river... crazy"
+    },
+    {
+      "id": "0163",
+      "title": "Inglourious Basterds",
+      "director": "Quentin Tarentino",
+      "year": "2009",
+      "image": "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+      "rating": "8",
+      "review": "If this movie was released today chuds on twitter would get butthurt and call it woke. Bring back burning nazis alive!"
+    },
+    {
+      "id": "74e8",
+      "title": "A Clockwork Orange",
+      "director": "Stanly Kubrick",
+      "year": "1971",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_FMjpg_UX1000_.jpg",
+      "rating": "7.5",
+      "review": "Personally I found this kind of boring but putting myself in the headspace of the 70s I can see why this movie blew people's minds at the time"
     }
   ]
 }

@@ -37,50 +37,59 @@ function MovieForm ({setMovies}) {
             <h2 id="log-title">Log a Film!</h2>
 
             <label className="movie-form-label" htmlFor="title">Title: </label>
-            <input name="title" 
+            <input className='input-box' name="title" 
             value={movieFormData.title}
             onChange={(event) => setMovieFormData( {...movieFormData, title: event.target.value} )}
             />
 
             <label className="movie-form-label" htmlFor="director">Director: </label>
-            <input name="director" 
+            <input className='input-box' name="director" 
             value={movieFormData.director}
             onChange={(event) => setMovieFormData( {...movieFormData, director: event.target.value} )}
             />
 
             <label className="movie-form-label" htmlFor="image">Poster Image URL: </label>
-            <input name="image"
+            <input className='input-box' name="image"
             value={movieFormData.image}
             onChange={(event) => setMovieFormData( {...movieFormData, image: event.target.value} )}
             />
 
             <label className="movie-form-label" htmlFor="year">Year: </label>
-            <input name="year"
+            <input className='input-box' name="year"
             type="number" 
             value={movieFormData.year}
             onChange={(event) => setMovieFormData( {...movieFormData, year: event.target.value} )}
             />
             
             <label className="movie-form-label" htmlFor="year">Rating: </label>
-            <select name="rating"
+            <select className='input-box' name="rating"
                 value={movieFormData.rating}
                 onChange={(event) => setMovieFormData( {...movieFormData, rating: event.target.value} )}
             >
                 <option value="">Select a rating</option>
                 <option value="1">1</option>  
+                <option value="1">1.5</option>  
                 <option value="2">2</option>  
+                <option value="2">2.5</option>  
                 <option value="3">3</option>  
+                <option value="3">3.5</option>  
                 <option value="4">4</option>  
+                <option value="4">4.5</option>  
                 <option value="5">5</option>  
+                <option value="5">5.5</option>  
                 <option value="6">6</option>  
+                <option value="6">6.5</option>  
                 <option value="7">7</option>  
+                <option value="7">7.5</option>  
                 <option value="8">8</option>  
+                <option value="8">8.5</option>  
                 <option value="9">9</option>  
+                <option value="9">9.5</option>  
                 <option value="10">10</option>  
             </select>
 
             <label className="movie-form-label" htmlFor="review">Review: </label>
-            <textarea id="review-area" name="review" 
+            <textarea className='input-box' id="review-area" name="review" 
             value={movieFormData.review}
             onChange={(event) => setMovieFormData( {...movieFormData, review: event.target.value} )}
             />
