@@ -66,26 +66,12 @@ function MovieForm ({setMovies}) {
                 value={movieFormData.rating}
                 onChange={(event) => setMovieFormData( {...movieFormData, rating: event.target.value} )}
             >
-                <option value="">Select a rating</option>
-                <option value="1">1</option>  
-                <option value="1">1.5</option>  
-                <option value="2">2</option>  
-                <option value="2">2.5</option>  
-                <option value="3">3</option>  
-                <option value="3">3.5</option>  
-                <option value="4">4</option>  
-                <option value="4">4.5</option>  
-                <option value="5">5</option>  
-                <option value="5">5.5</option>  
-                <option value="6">6</option>  
-                <option value="6">6.5</option>  
-                <option value="7">7</option>  
-                <option value="7">7.5</option>  
-                <option value="8">8</option>  
-                <option value="8">8.5</option>  
-                <option value="9">9</option>  
-                <option value="9">9.5</option>  
-                <option value="10">10</option>  
+                <option>Select Rating</option>
+                {[...Array(20)].map((_, index) => (
+                <option key={index} value={(index + 1) / 2}>
+                    {(index + 1) / 2}
+                </option>
+                ))} 
             </select>
 
             <label className="movie-form-label" htmlFor="review">Review: </label>
